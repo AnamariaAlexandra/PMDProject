@@ -1,0 +1,161 @@
+[{
+    "exercise":"Bench Press",
+    "description":"Lie on the bench, pull your shoulder blades together and down, and slightly arch your back.Grip the bar slightly wider than shoulder-width apart.Inhale, hold your breath, and unrack the bar.Lower the bar with control, until it touches your chest somewhere close to your sternum.Push the bar up to the starting position while exhaling.Take another breath while in the top position, and repeat for reps.",
+    "bodyPart":"chest"
+},
+{
+    "exercise":"Incline Dumbbell Press",
+    "description":"Adjust the incline of a bench to be around 30-45 degrees.Sit down and lift a pair of dumbbells to the starting position.Press the dumbbells up to straight arms while exhaling.Inhale at the top or while lowering the dumbbells with control back to your shoulders.",    
+    "bodyPart":"chest"
+},
+{
+    "exercise":"Bar Dips",
+    "description":"Grip a dip station about shoulder-width apart, and climb or jump to get into the starting position.Lower yourself with control until your shoulder is below your elbow, or as deep as you comfortably can.Reverse the motion and return to the starting position.",
+    "bodyPart":"chest"
+},
+{
+    "exercise":"Standing Cable Chest Fly",
+    "description":"Fasten a pair of handles in the top position of a cable cross. Grip the handles, step forward, and lean slightly forward.With just a slight bend in the arms, push the handles forward until they meet in front of your body.With control, let the handles go back to the starting position.",
+    "bodyPart":"chest"
+},
+{
+    "exercise":"Overhead Press",
+    "description":"First, place a barbell in a rack at about chest height.Grip the bar slightly wider than shoulder-width apart, and step close to it.Inhale, lightly brace your core, and unrack the bar.Let the bar rest against your front delts while you step back from the rack.Press the bar up to straight arms while exhaling.Inhale at the top or while lowering the bar with control back to your shoulders.",
+    "bodyPart":"shoulders"
+},
+{
+    "exercise":"Seated Dumbbell Shoulder Press",
+    "description":"Sit down on a bench with a raised backrest.Grab a pair of dumbbells and lift them up to the starting position at your shoulders.Inhale and lightly brace your core.Press the dumbbells up to straight arms, while exhaling.Inhale at the top, or while lowering the dumbbells with control back to your shoulders",
+    "bodyPart":"shoulders"
+},
+{
+    "exercise":"Dumbbell Lateral Raise",
+    "description":"Hold a pair of dumbbells in almost straight arms hanging by your sides.With control, lift the dumbbells outwards to your sides until your upper arm is horizontal.Lower the dumbbells with control.",
+    "bodyPart":"shoulders"
+},
+{
+    "exercise":"Reverse Dumbbell Fly",
+    "description":"Hold a pair of dumbbells, lean forward and let your arms hang towards the floor.With almost straight arms (just a slight bend at the elbow), slowly lift the dumbbells by raising your arms out to the sides.Reverse the movement and lower the dumbbells back to the starting position.",
+    "bodyPart":"shoulders"
+},
+{
+    "exercise":"Deadlift",
+    "description":"Step up close to the bar so that it is about over the middle of your foot.Inhale, lean forward, and grip the bar.Hold your breath, brace your core slightly, and lift the bar.Pull the bar close to your body, with a straight back, until you are standing straight.Lower the bar back to the ground with control.",
+    "bodyPart":"back"
+},
+{
+    "exercise":"Lat Pulldown",
+    "description":"Begin by adjusting the thigh pad to fit snugly against your thighs to prevent your body from lifting off the seat.Grasp the bar with an overhand (pronated) grip, with your hands slightly wider than shoulder-width apart.Sit with your thighs under the thigh pad, keep your chest up, and look at the bar.Pull the bar down towards your chest, leading with your elbows. Pull until the bar is below your chin or touches your upper chest.Squeeze your shoulder blades together at the bottom of the movement.Exhale and slowly release the bar back up to the starting position.",
+    "bodyPart":"back"
+},
+{
+    "exercise":"Pull-Up",
+    "description":"Grip the bar with palms facing away from you, slightly wider than shoulder-width.Keep your chest up, and look up at the bar.Inhale and pull yourself up until your chin is over the bar or the bar touches your upper chest.Exhale and lower yourself with control until your arms are fully extended.",
+    "bodyPart":"back"
+},
+{
+    "exercise":"Barbell Row",
+    "description":"Grip the bar with an overhand grip.Lean forward with the bar hanging from straight arms.Inhale and pull the bar towards you.Pull the bar as high as you can so that it touches your abs or chest, if possible.With control, lower the bar back to the starting position.",
+    "bodyPart":"back"
+},
+{
+    "exercise":"Dumbbell Row",
+    "description":"Start by placing a dumbbell on the floor beside a bench or chair. Stand facing the bench or chair and place your left hand and left knee on top of it.Keep your back flat and parallel to the ground, with a slight bend in the standing leg. Grip the dumbbell with your right hand.Inhale and pull the dumbbell by driving the elbow toward the ceiling.With control, lower the dumbbell back to the starting position while exhaling.Complete desired reps on one side, then switch to the opposite arm and leg.",
+    "bodyPart":"back"
+},
+{
+    "exercise":"Barbell Curl",
+    "description":"Grip a bar with an underhand (supinated) grip, hands about shoulder-width apart.Lift the bar with control, by flexing your elbows.Do not let your upper arm travel back during the curl, keep it at your side or move it slightly forward.Reverse the movement and lower the bar back to the starting position.",
+    "bodyPart":"bicep"
+},
+{
+    "exercise":"Dumbbell Curl",
+    "description":"Hold a pair of dumbbells in an underhand (supinated) grip, arms hanging by your sides.Lift the dumbbells with control, by flexing your elbows.Do not let your upper arms travel back during the curl. Keep them at your sides or move them slightly forward.Reverse the movement and lower the dumbbells back to the starting position.",
+    "bodyPart":"bicep"
+},
+{
+    "exercise":"Hammer Curl",
+    "description":"Hold a pair of dumbbells in a neutral grip (palms facing each other), arms hanging by your sides.Lift the dumbbells with control, by flexing your elbows.Do not let your upper arms travel back during the curl. Keep them at your sides or move them slightly forward.Reverse the movement and lower the dumbbells back to the starting position.",
+    "bodyPart":"bicep"
+},
+{
+    "exercise":"Barbell Lying Triceps Extension",
+    "description":"Lie down on a bench with your head close to the edge. Hold a barbell with a close grip, and lift it up to straight arms over yourself.Lower the barbell down behind your head. Try to keep the same distance between your elbows throughout the movement.Reverse the motion and extend your arms again.",
+    "bodyPart":"tricep"
+},
+{
+    "exercise":"Overhead Cable Triceps Extension",
+    "description":"Fasten a rope handle in the lower position of a cable pulley. Stand with your back against the pulley, with a slight forward lean, and hold the rope behind your head and your upper arms next to your ears.Straighten your elbows until your arms are fully extended.Reverse the motion by bending your arms again.",
+    "bodyPart":"tricep"
+},
+{
+    "exercise":"Tricep Pushdown",
+    "description":"Stand one step away from the cable pulley, and grip a bar about shoulder-width apart.Pull the handle down until your upper arms are perpendicular to the floor. This is the starting position.Push the handle down until your arms are fully extended.With control, let the handle up again.",
+    "bodyPart":"tricep"
+},
+{
+    "exercise":"Close-Grip Bench Press",
+    "description":"Lie on the bench, pull your shoulder blades together and down, and slightly arch your back.Grip the bar narrower than in a regular bench press so that your hands are directly above your shoulders or even closer.Take a breath and hold it, and unrack the bar.Lower the bar with control until it touches your chest somewhere where the ribs end.Push the bar up to the starting position while exhaling.Take another breath in the top position, and repeat for reps.",
+    "bodyPart":"tricep"
+},
+{
+    "exercise":"Squat",
+    "description":"Place the bar on your upper back. Inhale and brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up or exchange air in the top position.",
+    "bodyPart":"quadriceps"
+},
+{
+    "exercise":"Hack Squats",
+    "description":"Adjust the machine to the correct height and place your shoulders against the shoulder pads.Put your feet on the plate, slightly in front of the base of the sled and about shoulder width apart.Extend your legs and disengage the sled`s locks.Inhale, brace your core lightly, and squat down as deep as you can with good form.Reverse the movement with control, and extend your legs again until you’re back in the starting position. Exhale on the way up.",
+    "bodyPart":"quadriceps"
+},
+{
+    "exercise":"Leg Extension",
+    "description":"Adjust the machine so that you are correctly positioned. Your knees should be in line with the machine’s joint.Extend your knees with control, until they are completely straight.Slowly lower the weight again.",
+    "bodyPart":"quadriceps"
+},
+{
+    "exercise":"Bulgarian Split Squat",
+    "description":"Stand with your back turned against a bench, which should be at about knee height. Stand about one long step in front of the bench.Place one foot on the bench behind you.Inhale, look forward, and squat down with control until right before the knee of the back leg touches the floor.Reverse the movement and extend your front leg again, while exhaling.Inhale at the top and repeat for reps.",
+    "bodyPart":"quadriceps"
+},
+{
+    "exercise":"Squat",
+    "description":"Place the bar on your upper back. Inhale and brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up or exchange air in the top position.Inhale and repeat for reps.",
+    "bodyPart":"glutes"
+},
+{
+    "exercise":"Hip Thrust",
+    "description":"Sit on the floor with your back against a sturdy bench.Roll the barbell up over your thighs, until it is placed over your hips.Place your feet on the floor, about shoulder-width apart, with bent knees.Place your hands on the bar to stabilize it.Push the bar towards the ceiling by extending your hips. Your knees should form a ~90 degree angle at the top.Lower the weight and repeat for reps.",
+    "bodyPart":"glutes"
+},
+{
+    "exercise":"Romanian Deadlift",
+    "description":"Get into the starting position by deadlifting a barbell off the floor, or by unracking it from a barbell rack.Inhale, brace your core slightly, and lean forward by hinging in your hips. Keep your knees almost completely extended.Lean forward as far as possible without rounding your back. You don’t have to touch the barbell to the floor, although it is OK if you do.Reverse the movement and return to the starting position. Exhale on the way up.Take another breath, and repeat for reps.",
+    "bodyPart":"glutes"
+},
+{
+    "exercise":"Bulgarian Split Squat",
+    "description":"",
+    "bodyPart":"glutes"
+},
+{
+    "exercise":"Cable Crunch",
+    "description":"Fasten a rope handle in the upper position on a cable pulley. Sit down on your knees a few feet away, facing the pulley.Bend your upper body forward by contracting your abs. Hold the ropes on either side of your head throughout the movement.Reverse the motion and return to the starting position with control.",
+    "bodyPart":"abs"
+},
+{
+    "exercise":"Hanging Leg Raise",
+    "description":"Jump up and grab a bar, placed high enough that you can hang from it with straight legs.Without swinging, lift your legs as high as you can in front of you.Lower your legs again, with control.",
+    "bodyPart":"abs"
+},
+{
+    "exercise":"High to Low Wood Chop",
+    "description":"Fasten an elastic band high up. Grip the band with both hands, step away, and stand sideways to the band’s anchor point.With almost straight arms, make a sweeping, chopping-like movement diagonally downward.Return to the starting position in a controlled manner.",
+    "bodyPart":"abs"
+},
+{
+    "exercise":"Crunch",
+    "description":"Lie on your back, with your hands in front of your chest and your knees bent to about 90 degrees.Lift your upper body by contracting your abs and bending forward.Bend as far forward as possible while still keeping your low back in contact with the floor, and then return to the starting position.",
+    "bodyPart":"abs"
+}
+]

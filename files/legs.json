@@ -1,0 +1,87 @@
+[
+    {
+     "exercise":"Air Squat", 
+     "description":"Stand with your feet about shoulder width apart.Squat as deep as possible.Reverse the movement, and return to a standing position",
+     "bodyPart":"legs"
+    },
+    {
+    "exercise":"Barbell Hack Squat",
+    "description":"Stand in front of a bar. Squat down and grip the bar with your arms outside your legs.Inhale, brace your core slightly, and lift the bar.Pull the bar close to your body, with a straight back, until you are standing straight.Lower the bar back to the ground with control.Take another breath, and repeat for reps.",
+    "bodyPart":"legs"
+},
+    {
+     "exercise":"Barbell Walking Lunge",
+     "description":"Stand with your feet at shoulder-width apart, with a slight bend in the knees. Make sure that your core is engaged.Step forward with one of your legs, bending both knees at the same time. Stop the movement just before the back knee touches the floor, you should have about a 90-degree angle in both knees.Drive through your front foot and extend the knee until you get back to a standing position.Continue by repeating the movement on the other side. ",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Box Squat",
+     "description":"Place the bar on your upper back, inhale and brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat down to a box, set at your desired heigth.Stand up again. Exhale on the way up, or exchange air in the top position.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Bulgarian Split Squat",
+     "description":"Stand with your back turned against a bench, which should be at about knee height. Stand about one long step in front of the bench.Place one foot on the bench behind you.Inhale, look forward, and squat down with control until right before the knee of the back leg touches the floor.Reverse the movement and extend your front leg again, while exhaling.Inhale at the top and repeat for reps.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Leg Extension",
+     "description":"Adjust the machine so that you are correctly positioned. Your knees should be in line with the machine’s joint.Extend your knees with control, until they are completely straight.Slowly lower the weight again.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Leg Press",
+     "description":"Adjust the machine so that you only need to extend your legs slightly to be able to release the weights. Adjust the safety pins so that they catch the weight if you are unable to lift it.Place your feet on the platform, about shoulder-width apart.Inhale and lower the weight by bending your legs.Lower the weight as deep as possible without rounding your back and while keeping your glutes on the seat.Press the weight back up again as you exhale.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Dumbbell Lunge",
+     "description":"Hold a dumbbell in each hand and stand with your feet about shoulder width apart.Take a big step forward and sink as deep as possible in a lunge position, without hitting the knee of the back leg in the floor.Return to the starting position by pushing yourself back with the front leg.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Goblet Squat",
+     "description":"Grab a kettlebell in the sides of the handle, and hold the kettlebell against your chest.Stand with your feet about shoulder-width apart, and your toes pointing slightly outward.Inhale, lightly brace your core, and squat down as deep as possible.Reverse the movement and return to the starting position. Exhale on the way up.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Hip Adduction Machine",
+     "description":"Adjust the machine to the appropriate settings, sit down with your legs outside the pads, and grip the handles.Push the pads toward eachother by bringin your legs together.Return with control to the starting position.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Landmine Hack Squat",
+     "description":"Place one end of a barbell into a corner. Facing away from the bar, place the other end on one of your shoulders.Inhale and brace your core lightly. Squat down as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again until you are standing up.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Romanian Deadlift",
+     "description":"Get into the starting position by deadlifting a barbell off the floor, or by unracking it from a barbell rack.Inhale, brace your core slightly, and lean forward by hinging in your hips. Keep your knees almost completely extended.Lean forward as far as possible without rounding your back. You don’t have to touch the barbell to the floor, although it is OK if you do.Reverse the movement and return to the starting position. Exhale on the way up.Take another breath, and repeat for reps.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Safety Bar Squat",
+     "description":"Grip the handles of a safety squat bar, and place the bar on your upper back.Inhale, brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up, or exchange air in the top position.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Seated Leg Curl",
+     "description":"Adjust the machine so that you are correctly positioned. Your knees should be in line with the machines joint.Push the weight down by bending your knees as far as possible.Slowly let the weight back again.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Smith Machine Squat",
+     "description":"Step in with your feet directly below the bar, about shoulder width between your feet, and place the bar on your upper back.Inhale and brace your core slightly, and unrack the bar.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up, or exchange air in the top position.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Squat",
+     "description":"Place the bar on your upper back. Inhale and brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up or exchange air in the top position.Inhale and repeat for reps.",
+     "bodyPart":"legs"
+    },
+    {
+     "exercise":"Step Up",
+     "description":"Stand in front of a chair, bench or something else that you can step up on.Place your foot on the chair.Lightly brace your core, and step up until your leg is straight.Lower yourself in a controlled motion.You can keep your foot at the chair, and repeat for reps.",
+     "bodyPart":"legs"
+    }
+]
