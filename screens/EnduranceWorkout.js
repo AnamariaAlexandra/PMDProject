@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor:'#111',
     flex:1,
-    color: '#EDBBFF',
+    color: '#B847FD',
     height:300,
     borderBottomColor: 'grey',
     borderTopColor:'#EDBBFF',
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     flex:1,
     height:290,
 
-    color: '#EDBBFF',
+    color: '#B847FD',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,

@@ -1,18 +1,42 @@
 import { StatusBar } from 'expo-status-bar';
-import { FlatList, TouchableOpacity } from 'react-native';
-import { StyleSheet, Text, View,TouchableWithoutFeedback } from 'react-native';
-
+import { useState } from 'react';
+import { Button } from 'react-native';
+import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList} from 'react-native';
+import { Modal } from 'react-native';
 const exercises = require('../files/fullBody.json');
 
 export default function FullBody() {
+  const [isModalVisible, setModalVisible] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
+  
+  const toggleModal = (item) => {
+    setModalVisible(!isModalVisible);
+    setSelectedItem(item.description);
+  };
+ 
   const renderItem = ({item})=>(
-      <TouchableWithoutFeedback> 
-        <View style = {styles.container}>
-        < Text style = {styles.header}>{item.bodyPart}:</Text>
-        < Text style = {styles.bar}>{item.exercise}</Text>
-        </View>
+    <View>
+      <TouchableWithoutFeedback onPress={()=>toggleModal(item)}>
+          <View style = {styles.container}>
+            < Text style = {styles.header}>{item.bodyPart}:</Text>
+              < Text style = {styles.bar}>{item.exercise}</Text>
+          </View>
       </TouchableWithoutFeedback>
+      <Modal 
+        visible={isModalVisible }>
+          <View style = {styles.modal}>
+          < Text style = {styles.barex}>{selectedItem}</Text>
+          <TouchableWithoutFeedback onPress={toggleModal}>
+            <View>
+              <Text style={styles.button}>Back</Text>
+            </View>
+          </TouchableWithoutFeedback>
+          </View>
+      </Modal> 
+    </View>
+  
   );
+
 
   return (
     <View style={styles.container}>
@@ -29,7 +53,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor:'#111',
     flex:1,
-    color: '#EDBBFF',
+    color: '#B847FD',
     height:100,
     borderBottomColor: 'grey',
     borderTopColor:'#EDBBFF',
@@ -42,7 +66,7 @@ const styles = StyleSheet.create({
   bar:{
     flex:1,
     height:90,
-    color: '#EDBBFF',
+    color: '#B847FD',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,
@@ -53,8 +77,37 @@ const styles = StyleSheet.create({
   header:{
     flex:0,
     backgroundColor:'#111',
-    color: '#EDBBFF',
+    color: '#B847FD',
     fontSize:20,
     letterSpacing:3,
-  }
+  },
+  button:{
+    width:200,
+    padding:20,
+    backgroundColor:'#B847FD',
+    borderRadius:20,
+    color:'#111',
+    fontWeight:'900',
+    fontSize:20,
+    letterSpacing:3,
+    textAlign:'center',
+    marginTop:20,
+  },
+  modal:{
+    flex:1, 
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor:'#111',
+  },
+  barex:{  
+    flex:.5,
+    height:90,
+    color: '#B847FD',
+    backgroundColor:'#111',
+    fontSize:20,
+    letterSpacing:3,
+    textAlign: 'center',
+    textAlignVertical: "center",
+  },
+
 })

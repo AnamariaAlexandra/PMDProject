@@ -36,7 +36,7 @@ export default function LiftingScreen({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    color: '#EDBBFF',
+    color: '#B847FD',
     backgroundColor:'#111',
     height:173,
     borderBottomColor: 'grey',
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
   bar:{
     flex:1,
-    color: '#EDBBFF',
+    color: '#B847FD',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,

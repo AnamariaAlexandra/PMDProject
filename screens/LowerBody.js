@@ -1,18 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { Button } from 'react-native';
+import { CheckBox } from '@react-native-community/checkbox';
 import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList} from 'react-native';
 import { Modal } from 'react-native';
 const exercises = require('../files/legs.json');
 
+
 export default function LowerBody() {
   const [isModalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
-  
+ 
+
   const toggleModal = (item) => {
     setModalVisible(!isModalVisible);
     setSelectedItem(item.description);
-    console.log(isModalVisible);
   };
  
   const renderItem = ({item})=>(
@@ -21,13 +22,20 @@ export default function LowerBody() {
           <View style = {styles.container}>
             < Text style = {styles.header}>{item.bodyPart}:</Text>
               < Text style = {styles.bar}>{item.exercise}</Text>
+
           </View>
       </TouchableWithoutFeedback>
       <Modal 
-        visible={isModalVisible}>
-          <View style = {{flex:1}}>
-          < Text style = {styles.bar}>{selectedItem}</Text>
-          <Button title = "back" onPress={toggleModal}/>
+        visible={isModalVisible }
+        animationIn = 'fade'
+        >
+          <View style = {styles.modal}>
+          < Text style = {styles.barex}>{selectedItem}</Text>
+          <TouchableWithoutFeedback onPress={toggleModal}>
+            <View>
+              <Text style={styles.button}>Back</Text>
+            </View>
+          </TouchableWithoutFeedback>
           </View>
       </Modal> 
     </View>
@@ -58,28 +66,50 @@ const styles = StyleSheet.create({
     flexDirection:'row',
     alignItems:'center',
 },
-  
   bar:{
     flex:1,
     height:90,
-    color: '#EDBBFF',
+    color: '#B847FD',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,
     textAlign: 'center',
     textAlignVertical: "center",
   },
+  barex:{  
+    flex:.5,
+    height:90,
+    color: '#B847FD',
+    backgroundColor:'#111',
+    fontSize:20,
+    letterSpacing:3,
+    textAlign: 'center',
+    textAlignVertical: "center",
+  },
+
   header:{
     flex:0,
     backgroundColor:'#111',
-    color: '#EDBBFF',
+    color: '#B847FD',
     fontSize:20,
     letterSpacing:3,
   },
+  button:{
+    width:200,
+    padding:20,
+    backgroundColor:'#B847FD',
+    borderRadius:20,
+    color:'#111',
+    fontWeight:'900',
+    fontSize:20,
+    letterSpacing:3,
+    textAlign:'center',
+    marginTop:20,
+  },
   modal:{
-    flex:1,
-    height: 100,
-    width: 100,
-    backgroundColor:'red',
+    flex:1, 
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor:'#111',
   },
 })

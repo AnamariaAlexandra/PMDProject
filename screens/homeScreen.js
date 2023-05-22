@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
   bar:{
     flex:1,
-    color: '#EDBBFF',
+    color: '#B847FD',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,
