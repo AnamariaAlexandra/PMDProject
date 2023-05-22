@@ -2,17 +2,42 @@ import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 
 import { FlatList,Modal } from 'react-native';
-import { StyleSheet, Text, View,TouchableWithoutFeedback,Button } from 'react-native';
+import { StyleSheet, Text, View,TouchableWithoutFeedback,Image } from 'react-native';
 
 const exercises = require('../files/chest.json');
 
 export default function UpperBody() {
   const [isModalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
   
+
   const toggleModal = (item) => {
     setModalVisible(!isModalVisible);
     setSelectedItem(item.description);
+    switch(item.image){
+      case "bardip":
+        setSelectedImage(require('../images/bardip.jpg'));
+        break;
+      case 'benchpress':
+        setSelectedImage(require('../images/benchpress.jpg'));
+        break;
+      case 'cablepress':
+        setSelectedImage(require('../images/cablepress.png'));
+        break;  
+      case 'closegrip':
+        setSelectedImage(require('../images/closegrip.jpg'));
+        break;
+      case 'declinepress':
+        setSelectedImage(require('../images/declinepress.jpg'));
+        break;
+      case 'chestfly':
+        setSelectedImage(require('../images/chestfly.png'));
+        break;
+      case 'chestpress':
+        setSelectedImage(require('../images/chestpress.png'));
+        break;
+    }
   };
  
   const renderItem = ({item})=>(
@@ -26,6 +51,7 @@ export default function UpperBody() {
       <Modal 
         visible={isModalVisible }>
           <View style = {styles.modal}>
+          <Image style = {{ backgroundColor: 'purple', width: 300, height: 300}} source = {selectedImage} />
           < Text style = {styles.barex}>{selectedItem}</Text>
           <TouchableWithoutFeedback onPress={toggleModal}>
             <View>

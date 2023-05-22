@@ -1,42 +1,57 @@
 [{
     "exercise":"Bench Press",
     "description":"Lie on the bench, pull your shoulder blades together and down, and slightly arch your back.Grip the bar slightly wider than shoulder-width apart.Inhale, hold your breath, and unrack the bar.Lower the bar with control, until it touches your chest somewhere close to your sternum.Push the bar up to the starting position while exhaling.Take another breath while in the top position, and repeat for reps.",
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image" : "benchpress"
 },
 {
     "exercise":"Incline Dumbbell Press",
     "description":"Adjust the incline of a bench to be around 30-45 degrees.Sit down and lift a pair of dumbbells to the starting position.Press the dumbbells up to straight arms while exhaling.Inhale at the top or while lowering the dumbbells with control back to your shoulders.",    
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image" : "inclinepress"
+
 },
 {
     "exercise":"Bar Dips",
     "description":"Grip a dip station about shoulder-width apart, and climb or jump to get into the starting position.Lower yourself with control until your shoulder is below your elbow, or as deep as you comfortably can.Reverse the motion and return to the starting position.",
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image" : "bardip"
+
 },
 {
     "exercise":"Standing Cable Chest Fly",
     "description":"Fasten a pair of handles in the top position of a cable cross. Grip the handles, step forward, and lean slightly forward.With just a slight bend in the arms, push the handles forward until they meet in front of your body.With control, let the handles go back to the starting position.",
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image" : "standingfly"
+
 },
 {
     "exercise":"Overhead Press",
     "description":"First, place a barbell in a rack at about chest height.Grip the bar slightly wider than shoulder-width apart, and step close to it.Inhale, lightly brace your core, and unrack the bar.Let the bar rest against your front delts while you step back from the rack.Press the bar up to straight arms while exhaling.Inhale at the top or while lowering the bar with control back to your shoulders.",
-    "bodyPart":"shoulders"
+    "bodyPart":"shoulders",
+    "image" : "overheadpress"
+
 },
 {
     "exercise":"Seated Dumbbell Shoulder Press",
     "description":"Sit down on a bench with a raised backrest.Grab a pair of dumbbells and lift them up to the starting position at your shoulders.Inhale and lightly brace your core.Press the dumbbells up to straight arms, while exhaling.Inhale at the top, or while lowering the dumbbells with control back to your shoulders",
-    "bodyPart":"shoulders"
+    "bodyPart":"shoulders",
+    "image" : "seatedpress"
+
 },
 {
     "exercise":"Dumbbell Lateral Raise",
     "description":"Hold a pair of dumbbells in almost straight arms hanging by your sides.With control, lift the dumbbells outwards to your sides until your upper arm is horizontal.Lower the dumbbells with control.",
-    "bodyPart":"shoulders"
+    "bodyPart":"shoulders",
+    "image" : "lateralrise"
+
 },
 {
     "exercise":"Reverse Dumbbell Fly",
     "description":"Hold a pair of dumbbells, lean forward and let your arms hang towards the floor.With almost straight arms (just a slight bend at the elbow), slowly lift the dumbbells by raising your arms out to the sides.Reverse the movement and lower the dumbbells back to the starting position.",
-    "bodyPart":"shoulders"
+    "bodyPart":"shoulders",
+    "image" : "reversefly"
+
 },
 {
     "exercise":"Deadlift",

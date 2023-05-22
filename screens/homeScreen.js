@@ -5,7 +5,7 @@ export default function HomeScreen({navigation}) {
 
   const data = [{key:'Lifting', src: require('../images/Lifting.png')},
   {key: 'Running', src: require('../images/runner.png')},
-  {key:'Cardio',src: require('../images/cardio.png') },
+  {key:'Cardio', src: require('../images/cardio.png') },
   {key:'Crossfit', src: require('../images/dumbbell.png')},
   ];
 

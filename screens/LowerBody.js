@@ -1,37 +1,67 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { CheckBox } from '@react-native-community/checkbox';
-import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList} from 'react-native';
+import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList, Image, SectionList} from 'react-native';
 import { Modal } from 'react-native';
+
 const exercises = require('../files/legs.json');
 
 
 export default function LowerBody() {
   const [isModalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
- 
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const toggleModal = (item) => {
     setModalVisible(!isModalVisible);
     setSelectedItem(item.description);
+    switch(item.image){
+      case "airsquat":
+        setSelectedImage(require('../images/airsquat.jpg'));
+        break;  
+      case 'barbellsquat':
+        setSelectedImage(require('../images/barbellsquat.jpg'));
+        break;
+      case 'barbelllunge':
+        setSelectedImage(require('../images/barbelllunge.jpg'));
+        break;
+
+      case 'boxsquat':
+        setSelectedImage(require('../images/boxsquat.jpg'));
+        break;
+
+      case 'splitsquat':
+        setSelectedImage(require('../images/splitsquat.png'));
+        break;
+      case 'legext':
+        setSelectedImage(require('../images/legext.jpg'));
+        break;
+      case 'legpress':
+        setSelectedImage(require('../images/legpress.png'));
+        break;
+      case 'dumblunge':
+        setSelectedImage(require('../images/dumblunge.jpg'));
+        break;
+      case 'dobletsquat':
+        setSelectedImage(require('../images/dobletsquat.jpg'));
+        break;
+    }
   };
- 
+
   const renderItem = ({item})=>(
-    <View>
+     <View>
       <TouchableWithoutFeedback onPress={()=>toggleModal(item)}>
           <View style = {styles.container}>
-            < Text style = {styles.header}>{item.bodyPart}:</Text>
               < Text style = {styles.bar}>{item.exercise}</Text>
-
           </View>
       </TouchableWithoutFeedback>
       <Modal 
-        visible={isModalVisible }
+        visible={isModalVisible}
         animationIn = 'fade'
         >
           <View style = {styles.modal}>
-          < Text style = {styles.barex}>{selectedItem}</Text>
-          <TouchableWithoutFeedback onPress={toggleModal}>
+           <Image style = {{ backgroundColor: 'purple', width: 300, height: 300}} source = {selectedImage} />
+           < Text style = {styles.barex}>{selectedItem}</Text>
+          <TouchableWithoutFeedback onPress={toggleModal}>      
             <View>
               <Text style={styles.button}>Back</Text>
             </View>
@@ -39,7 +69,6 @@ export default function LowerBody() {
           </View>
       </Modal> 
     </View>
-  
   );
 
   return (

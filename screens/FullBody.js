@@ -1,17 +1,46 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { Button } from 'react-native';
-import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList} from 'react-native';
+import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList,Image} from 'react-native';
 import { Modal } from 'react-native';
 const exercises = require('../files/fullBody.json');
 
 export default function FullBody() {
   const [isModalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
+
   
   const toggleModal = (item) => {
     setModalVisible(!isModalVisible);
     setSelectedItem(item.description);
+    switch(item.image){
+      case "benchpress":
+        setSelectedImage(require('../images/benchpress.jpg'));
+        break;
+      case "inclinepress":
+        setSelectedImage(require('../images/inclinepress.jpg'));
+        break;
+      case "bardip":
+        setSelectedImage(require('../images/bardip.jpg'));
+        break;
+      case "standingfly":
+        setSelectedImage(require('../images/standingfly.jpg'));
+        break;
+      case "overheadpress":
+        setSelectedImage(require('../images/overheadpress.jpg'));
+        break;
+      case "seatedpress":
+        setSelectedImage(require('../images/seatedpress.jpg'));
+        break;
+      case "lateralrise":
+        setSelectedImage(require('../images/lateralrise.jpg'));
+        break;
+      case "reversefly":
+        setSelectedImage(require('../images/reversefly.jpg'));
+        break;
+
+
+     }
   };
  
   const renderItem = ({item})=>(
@@ -25,6 +54,8 @@ export default function FullBody() {
       <Modal 
         visible={isModalVisible }>
           <View style = {styles.modal}>
+          <Image style = {{ backgroundColor: 'purple', width: 300, height: 300}} source = {selectedImage} />
+
           < Text style = {styles.barex}>{selectedItem}</Text>
           <TouchableWithoutFeedback onPress={toggleModal}>
             <View>

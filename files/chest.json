@@ -1,31 +1,44 @@
 [
     { "exercise":"Bar Dip", 
     "description":"Grip a dip station about shoulder-width apart, and climb or jump to get into the starting position.Lower yourself with control until your shoulder is below your elbow, or as deep as you comfortably can.Reverse the motion and return to the starting position.",
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image":"bardip"
     },
     { "exercise":"Bench Press", 
     "description":"Lie on the bench, pull your shoulder blades together and down, and slightly arch your back.Grip the bar slightly wider than shoulder-width apart.Inhale, hold your breath, and unrack the bar.Lower the bar with control, until it touches your chest somewhere close to your sternum.Push the bar up to the starting position while exhaling.Take another breath while in the top position, and repeat for reps.",
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image":"benchpress"
+
     },
     { "exercise":"Cable Chest Press", 
     "description":"Fasten a pair of handles in the top position of a cable cross. Grip the handles, step forward, and lean slightly forward.Push the handles forward until they meet in front of your body.With control, let the handles go back to the starting position.",
-    "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image":"cablepress"
+
     },
     { "exercise":"Close-Grip Bench Press", 
     "description":"Lie on the bench, pull your shoulder blades together and down, and slightly arch your back.Grip the bar narrower than in a regular bench press so that your hands are directly above your shoulders or even closer.Take a breath and hold it, and unrack the bar.Lower the bar with control until it touches your chest somewhere where the ribs end.Push the bar up to the starting position while exhaling.Take another breath in the top position, and repeat for reps.",
-        "bodyPart":"chest"
+    "bodyPart":"chest",
+    "image":"closegrip"
+
     },
     { "exercise":"Decline Bench Press", 
     "description":"Set a bench so that it is in decline, either by adjusting the backrest or by elevating the foot.Lie down on the bench, pull your shoulder blades together and down, with a proud chest.Grip the bar slightly wider than shoulder-width apart.Take a breath and hold it, and unrack the bar.Lower the bar with control until it touches your chest.Push the bar up while exhaling.Take another breath in the top position, and repeat for reps.",
-        "bodyPart":"chest"
+        "bodyPart":"chest",
+    "image":"declinepress"
+
     },
     { "exercise":"Dumbbell Chest Fly", 
     "description":"Lie on a bench, and lift a pair of dumbbells up to the starting position.With almost completely straight arms, lower the dumbbells out to your sides.When you’ve lowered the dumbbells as deep as possible, reverse the motion and return the dumbbells to the starting position.",
-        "bodyPart":"chest"
+        "bodyPart":"chest",
+    "image":"chestfly"
+
     },
     { "exercise":"Dumbbell Chest Press", 
     "description":"Lie on a bench, and lift a pair of dumbbells up to the starting position.Press the dumbbells up to straight arms, while exhaling.Inhale at the top, or while lowering the dumbbells with control back to your shoulders.",
-        "bodyPart":"chest"
+        "bodyPart":"chest",
+    "image":"chestpress"
+
     },
     { "exercise":"Dumbbell Floor Press", 
     "description":"Sit on the floor with your legs straight and a pair of dumbbells beside you.Pick the dumbbells up and place them in your hip creak.Lay down while you bring the dumbbells up to your chest.Press them dumbbells to straight arms, bend your knees, and place your feet flat on the floor.Lower the dumbbells slowly until your upper arms hit the floor.Reverse the motion and push the dumbbells up to straight arms again.Gently drop the dumbbells to the floor to finish the set.",

@@ -2,47 +2,64 @@
     {
      "exercise":"Air Squat", 
      "description":"Stand with your feet about shoulder width apart.Squat as deep as possible.Reverse the movement, and return to a standing position",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "airsquat"
     },
     {
     "exercise":"Barbell Hack Squat",
     "description":"Stand in front of a bar. Squat down and grip the bar with your arms outside your legs.Inhale, brace your core slightly, and lift the bar.Pull the bar close to your body, with a straight back, until you are standing straight.Lower the bar back to the ground with control.Take another breath, and repeat for reps.",
-    "bodyPart":"legs"
+    "bodyPart":"legs",
+    "image": "barbellsquat"
+
 },
     {
      "exercise":"Barbell Walking Lunge",
      "description":"Stand with your feet at shoulder-width apart, with a slight bend in the knees. Make sure that your core is engaged.Step forward with one of your legs, bending both knees at the same time. Stop the movement just before the back knee touches the floor, you should have about a 90-degree angle in both knees.Drive through your front foot and extend the knee until you get back to a standing position.Continue by repeating the movement on the other side. ",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "barbelllunge"
+
     },
     {
      "exercise":"Box Squat",
      "description":"Place the bar on your upper back, inhale and brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat down to a box, set at your desired heigth.Stand up again. Exhale on the way up, or exchange air in the top position.",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "boxsquat"
+
     },
     {
      "exercise":"Bulgarian Split Squat",
      "description":"Stand with your back turned against a bench, which should be at about knee height. Stand about one long step in front of the bench.Place one foot on the bench behind you.Inhale, look forward, and squat down with control until right before the knee of the back leg touches the floor.Reverse the movement and extend your front leg again, while exhaling.Inhale at the top and repeat for reps.",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "splitsquat"
+
     },
     {
      "exercise":"Leg Extension",
      "description":"Adjust the machine so that you are correctly positioned. Your knees should be in line with the machine’s joint.Extend your knees with control, until they are completely straight.Slowly lower the weight again.",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "legext"
+
     },
     {
      "exercise":"Leg Press",
      "description":"Adjust the machine so that you only need to extend your legs slightly to be able to release the weights. Adjust the safety pins so that they catch the weight if you are unable to lift it.Place your feet on the platform, about shoulder-width apart.Inhale and lower the weight by bending your legs.Lower the weight as deep as possible without rounding your back and while keeping your glutes on the seat.Press the weight back up again as you exhale.",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "legpress"
+
     },
     {
      "exercise":"Dumbbell Lunge",
      "description":"Hold a dumbbell in each hand and stand with your feet about shoulder width apart.Take a big step forward and sink as deep as possible in a lunge position, without hitting the knee of the back leg in the floor.Return to the starting position by pushing yourself back with the front leg.",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "dumblunge"
+
     },
     {
      "exercise":"Goblet Squat",
      "description":"Grab a kettlebell in the sides of the handle, and hold the kettlebell against your chest.Stand with your feet about shoulder-width apart, and your toes pointing slightly outward.Inhale, lightly brace your core, and squat down as deep as possible.Reverse the movement and return to the starting position. Exhale on the way up.",
-     "bodyPart":"legs"
+     "bodyPart":"legs",
+     "image": "dobletsquat"
+
     },
     {
      "exercise":"Hip Adduction Machine",
