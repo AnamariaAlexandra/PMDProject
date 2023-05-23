@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList, Image, SectionList} from 'react-native';
+import { StyleSheet, Text, View,TouchableWithoutFeedback,FlatList, Image, TouchableOpacity} from 'react-native';
 import { Modal } from 'react-native';
 
 const exercises = require('../files/legs.json');
@@ -10,6 +10,7 @@ export default function LowerBody() {
   const [isModalVisible, setModalVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedExercises, setSelectedExercises] = useState([]);
 
   const toggleModal = (item) => {
     setModalVisible(!isModalVisible);
@@ -47,11 +48,31 @@ export default function LowerBody() {
     }
   };
 
+  const toggleModalCheckBox = (item)=>{
+    const exerciseIndex = selectedExercises.findIndex((exercise) => exercise.exercise === item.exercise);
+    if (exerciseIndex !== -1) {
+      const updatedExercises = [...selectedExercises];
+      updatedExercises.splice(exerciseIndex, 1);
+      setSelectedExercises(updatedExercises);
+    } else {
+      setSelectedExercises([...selectedExercises, item]);
+    }
+  }
+
   const renderItem = ({item})=>(
      <View>
       <TouchableWithoutFeedback onPress={()=>toggleModal(item)}>
           <View style = {styles.container}>
-              < Text style = {styles.bar}>{item.exercise}</Text>
+            < Text style = {styles.header}>{item.bodyPart}:</Text>
+            < Text style = {styles.bar}>{item.exercise}</Text>
+            <TouchableOpacity
+              style={styles.checkbox}
+              onPress={() => toggleModalCheckBox(item)}
+              >
+              {selectedExercises.some((exercise) => exercise.exercise === item.exercise) && <View style={styles.checkboxInner} />}
+            </TouchableOpacity>
+
+
           </View>
       </TouchableWithoutFeedback>
       <Modal 
@@ -98,7 +119,7 @@ const styles = StyleSheet.create({
   bar:{
     flex:1,
     height:90,
-    color: '#B847FD',
+    color: '#EDBBFF',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,
@@ -108,7 +129,7 @@ const styles = StyleSheet.create({
   barex:{  
     flex:.5,
     height:90,
-    color: '#B847FD',
+    color: '#EDBBFF',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,
@@ -118,15 +139,16 @@ const styles = StyleSheet.create({
 
   header:{
     flex:0,
-    backgroundColor:'#111',
-    color: '#B847FD',
-    fontSize:20,
-    letterSpacing:3,
+    color: '#EDBBFF',
+    fontSize:25,
+    fontWeight:'bold',
+    marginBottom:10,
+    height: 80,
   },
   button:{
     width:200,
     padding:20,
-    backgroundColor:'#B847FD',
+    backgroundColor:'#EDBBFF',
     borderRadius:20,
     color:'#111',
     fontWeight:'900',
@@ -140,5 +162,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor:'#111',
+  },
+  checkbox: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: '#EDBBFF',
+    marginRight: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  checkboxInner: {
+    width: 14,
+    height: 14,
+    borderRadius: 7,
+    backgroundColor: '#EDBBFF',
   },
 })

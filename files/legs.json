@@ -6,14 +6,14 @@
      "image": "airsquat"
     },
     {
-    "exercise":"Barbell Hack Squat",
+    "exercise":"Barbell Squat",
     "description":"Stand in front of a bar. Squat down and grip the bar with your arms outside your legs.Inhale, brace your core slightly, and lift the bar.Pull the bar close to your body, with a straight back, until you are standing straight.Lower the bar back to the ground with control.Take another breath, and repeat for reps.",
     "bodyPart":"legs",
     "image": "barbellsquat"
 
 },
     {
-     "exercise":"Barbell Walking Lunge",
+     "exercise":" Walking Lunge",
      "description":"Stand with your feet at shoulder-width apart, with a slight bend in the knees. Make sure that your core is engaged.Step forward with one of your legs, bending both knees at the same time. Stop the movement just before the back knee touches the floor, you should have about a 90-degree angle in both knees.Drive through your front foot and extend the knee until you get back to a standing position.Continue by repeating the movement on the other side. ",
      "bodyPart":"legs",
      "image": "barbelllunge"
@@ -27,7 +27,7 @@
 
     },
     {
-     "exercise":"Bulgarian Split Squat",
+     "exercise":" Split Squat",
      "description":"Stand with your back turned against a bench, which should be at about knee height. Stand about one long step in front of the bench.Place one foot on the bench behind you.Inhale, look forward, and squat down with control until right before the knee of the back leg touches the floor.Reverse the movement and extend your front leg again, while exhaling.Inhale at the top and repeat for reps.",
      "bodyPart":"legs",
      "image": "splitsquat"
@@ -62,12 +62,12 @@
 
     },
     {
-     "exercise":"Hip Adduction Machine",
+     "exercise":"Hip Adduction",
      "description":"Adjust the machine to the appropriate settings, sit down with your legs outside the pads, and grip the handles.Push the pads toward eachother by bringin your legs together.Return with control to the starting position.",
      "bodyPart":"legs"
     },
     {
-     "exercise":"Landmine Hack Squat",
+     "exercise":"Landmine Squat",
      "description":"Place one end of a barbell into a corner. Facing away from the bar, place the other end on one of your shoulders.Inhale and brace your core lightly. Squat down as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again until you are standing up.",
      "bodyPart":"legs"
     },
@@ -87,7 +87,7 @@
      "bodyPart":"legs"
     },
     {
-     "exercise":"Smith Machine Squat",
+     "exercise":"Smith Squat",
      "description":"Step in with your feet directly below the bar, about shoulder width between your feet, and place the bar on your upper back.Inhale and brace your core slightly, and unrack the bar.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up, or exchange air in the top position.",
      "bodyPart":"legs"
     },

@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
   bar:{
     flex:1,
-    color: '#B847FD',
+    color: '#EDBBFF',
     backgroundColor:'#111',
     fontSize:20,
     letterSpacing:3,

@@ -5,7 +5,7 @@
     "image" : "benchpress"
 },
 {
-    "exercise":"Incline Dumbbell Press",
+    "exercise":"Incline Press",
     "description":"Adjust the incline of a bench to be around 30-45 degrees.Sit down and lift a pair of dumbbells to the starting position.Press the dumbbells up to straight arms while exhaling.Inhale at the top or while lowering the dumbbells with control back to your shoulders.",    
     "bodyPart":"chest",
     "image" : "inclinepress"
@@ -19,7 +19,7 @@
 
 },
 {
-    "exercise":"Standing Cable Chest Fly",
+    "exercise":" Chest Fly",
     "description":"Fasten a pair of handles in the top position of a cable cross. Grip the handles, step forward, and lean slightly forward.With just a slight bend in the arms, push the handles forward until they meet in front of your body.With control, let the handles go back to the starting position.",
     "bodyPart":"chest",
     "image" : "standingfly"
@@ -33,21 +33,21 @@
 
 },
 {
-    "exercise":"Seated Dumbbell Shoulder Press",
+    "exercise":" Shoulder Press",
     "description":"Sit down on a bench with a raised backrest.Grab a pair of dumbbells and lift them up to the starting position at your shoulders.Inhale and lightly brace your core.Press the dumbbells up to straight arms, while exhaling.Inhale at the top, or while lowering the dumbbells with control back to your shoulders",
     "bodyPart":"shoulders",
     "image" : "seatedpress"
 
 },
 {
-    "exercise":"Dumbbell Lateral Raise",
+    "exercise":"Dumbbell Raise",
     "description":"Hold a pair of dumbbells in almost straight arms hanging by your sides.With control, lift the dumbbells outwards to your sides until your upper arm is horizontal.Lower the dumbbells with control.",
     "bodyPart":"shoulders",
     "image" : "lateralrise"
 
 },
 {
-    "exercise":"Reverse Dumbbell Fly",
+    "exercise":"Reverse Fly",
     "description":"Hold a pair of dumbbells, lean forward and let your arms hang towards the floor.With almost straight arms (just a slight bend at the elbow), slowly lift the dumbbells by raising your arms out to the sides.Reverse the movement and lower the dumbbells back to the starting position.",
     "bodyPart":"shoulders",
     "image" : "reversefly"
@@ -116,22 +116,22 @@
 {
     "exercise":"Squat",
     "description":"Place the bar on your upper back. Inhale and brace your core slightly, and unrack the bar.Take two steps back, and adjust your foot position.Squat as deep as possible with good technique.With control, stop and reverse the movement, extending your hips and legs again.Exhale on the way up or exchange air in the top position.",
-    "bodyPart":"quadriceps"
+    "bodyPart":"quad"
 },
 {
     "exercise":"Hack Squats",
     "description":"Adjust the machine to the correct height and place your shoulders against the shoulder pads.Put your feet on the plate, slightly in front of the base of the sled and about shoulder width apart.Extend your legs and disengage the sled`s locks.Inhale, brace your core lightly, and squat down as deep as you can with good form.Reverse the movement with control, and extend your legs again until you’re back in the starting position. Exhale on the way up.",
-    "bodyPart":"quadriceps"
+    "bodyPart":"quad"
 },
 {
     "exercise":"Leg Extension",
     "description":"Adjust the machine so that you are correctly positioned. Your knees should be in line with the machine’s joint.Extend your knees with control, until they are completely straight.Slowly lower the weight again.",
-    "bodyPart":"quadriceps"
+    "bodyPart":"quad"
 },
 {
     "exercise":"Bulgarian Split Squat",
     "description":"Stand with your back turned against a bench, which should be at about knee height. Stand about one long step in front of the bench.Place one foot on the bench behind you.Inhale, look forward, and squat down with control until right before the knee of the back leg touches the floor.Reverse the movement and extend your front leg again, while exhaling.Inhale at the top and repeat for reps.",
-    "bodyPart":"quadriceps"
+    "bodyPart":"quad"
 },
 {
     "exercise":"Squat",
@@ -164,7 +164,7 @@
     "bodyPart":"abs"
 },
 {
-    "exercise":"High to Low Wood Chop",
+    "exercise":"Wood Chop",
     "description":"Fasten an elastic band high up. Grip the band with both hands, step away, and stand sideways to the band’s anchor point.With almost straight arms, make a sweeping, chopping-like movement diagonally downward.Return to the starting position in a controlled manner.",
     "bodyPart":"abs"
 },
